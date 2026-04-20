@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Excercise 3</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            text-align: center;
+            margin: 50px auto;
+            width: max-content;
+        }
+
+        .image-container {
+            display: inline-block;
+            margin: 40px;
+            vertical-align: top;
+            max-width: 300px;
+            text-align: center;
+        }
+
+        .image-container img {
+            display: block;
+            width: 300px;
+            height: auto;
+            border: 4px solid black;
+            box-sizing: border-box;
+        }
+
+        .license-info {
+            display: block;
+            font-size: 11px;
+            color: #555;
+            margin-top: 15px;
+            white-space: normal;
+        }
+
+        .landscape-1 img {
+            border-color: #9b30ff;
+            filter: sepia(80%);
+            box-shadow: 10px 10px 15px rgba(0, 0, 255, 0.7);
+        }
+
+        .landscape-2 img {
+            border-color: #a9a9a9;
+            filter: grayscale(100%);
+            box-shadow: 
+                inset 10px 10px 15px rgba(0, 128, 0, 0.5),
+                8px 8px 10px rgba(128, 128, 128, 0.6);
+        }
+
+        .landscape-3 img {
+            border: 4px solid orange;
+            border-radius: 50px;
+            filter: brightness(1.2) contrast(1.1);
+            box-shadow: 
+                0 0 0 10px blue,
+                0 0 0 20px red,
+                0 0 0 30px green;
+            margin-bottom: 30px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Theme: Serene Landscapes (Bonus Complete)</h1>
+
+    <div class="image-container landscape-1">
+        <img src="first forest.jpg" 
+             alt="Majestic mountain peaks under a clear blue sky" 
+             title="Mountain Peak">
+        <span class="license-info">License: Unsplash License (Free for commercial use)</span>
+    </div>
+
+    <div class="image-container landscape-2">
+        <img src="forest heart.jpg" 
+             alt="Sunlight filtering through a dense green forest" 
+             title="Sunlit Forest">
+        <span class="license-info">License: Unsplash License (Free for commercial use)</span>
+    </div>
+
+    <div class="image-container landscape-3">
+        <img src="frog leaf.jpg" 
+             alt="Calm tropical beach with white sand and turquoise water" 
+             title="Tropical Beach">
+        <span class="license-info">License: Unsplash License (Free for commercial use)</span>
+    </div>
+
+</body>
+</html>
