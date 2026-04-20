@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercise 5</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header>
+        <div class="banner">Audio Sampler Pro</div>
+    </header>
+
+    <main class="main-container">
+        <section class="tts-column">
+            <h2>Text to Speech</h2>
+            <textarea id="tts-input" placeholder="Type something for Alan to say..."></textarea>
+            <button id="tts-button">Speak</button>
+        </section>
+
+        <section class="sampler-column">
+            <div class="grid-controls">
+                <button id="prev-btn" class="nav-arrow">&larr;</button>
+                <div id="soundboard" class="grid-container">
+                    </div>
+                <button id="next-btn" class="nav-arrow">&rarr;</button>
+            </div>
+        </section>
+    </main>
+
+    <audio id="audio-player"></audio>
+    <script src="index.js"></script>
+</body>
+</html>
