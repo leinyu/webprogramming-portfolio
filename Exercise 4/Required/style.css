@@ -30,7 +30,6 @@ nav a {
     font-size: 24px;
 }
 
-/* Layout Container */
 main {
     display: flex;
     max-width: 1200px;
@@ -38,7 +37,6 @@ main {
     min-height: 500px;
 }
 
-/* Left Content */
 .welcome-section {
     flex: 2;
     padding: 40px;
@@ -53,7 +51,6 @@ main {
     margin-top: 20px;
 }
 
-/* Sidebar */
 .sidebar {
     flex: 1;
     background-color: #172d67;
@@ -84,7 +81,6 @@ main {
     object-fit: cover;
 }
 
-/* Footer */
 footer {
     background-color: #8c15e9;
     color: #FFFFFF;

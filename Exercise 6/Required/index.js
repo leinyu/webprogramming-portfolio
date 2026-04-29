@@ -4,14 +4,14 @@ const calcButton = document.getElementById('calc-btn');
 const totalDisplay = document.getElementById('total-display');
 
 calcButton.addEventListener('click', function() {
-    // 1. Get current values from the inputs
+    // 1. get current values from the inputs
     const pricePerLiter = parseFloat(priceInput.value);
     const totalLiters = parseFloat(litersInput.value);
 
-    // 2. Perform the calculation
+    // 2. calculation
     const finalCost = pricePerLiter * totalLiters;
 
-    // 3. Display the result
+    // 3. result
     if (isNaN(finalCost)) {
         totalDisplay.textContent = "Please enter valid numbers";
     } else {

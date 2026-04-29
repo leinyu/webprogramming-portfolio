@@ -18,7 +18,6 @@ header {
     text-align: center;
 }
 
-/* Navigation */
 nav {
     background-color: #172d67;
     padding: 0.5rem;
@@ -62,7 +61,6 @@ nav ul li a {
     padding-bottom: 10px;
 }
 
-/* Task Cards */
 .task-card {
     background-color: white;
     padding: 15px;

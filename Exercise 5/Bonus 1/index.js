@@ -12,7 +12,7 @@ const samples = [
 
 const board = document.getElementById('soundboard');
 
-// Loop for buttons
+// loop for buttons
 samples.forEach(item => {
     const box = document.createElement('div');
     box.className = 'sample-box';
@@ -23,7 +23,7 @@ samples.forEach(item => {
         <div>${item.time}</div>
     `;
 
-    // Click to play sound
+    // play sound
     box.onclick = () => {
         const audio = new Audio(`Audio Sampler/${item.file}`);
         audio.play();
